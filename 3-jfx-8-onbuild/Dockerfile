@@ -5,4 +5,4 @@ WORKDIR /usr/src/app
 
 ONBUILD ADD . /usr/src/app
 
-#ONBUILD RUN mvn install
+ONBUILD RUN echo tomologic/maven:3-jfx-8-onbuild is deprecated. Please use tomologic/maven:3-jfx-8 instead.
